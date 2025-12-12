@@ -2,7 +2,7 @@ document.getElementById("analyzeBtn").addEventListener("click", async () => {
   const text = document.getElementById("inputText").value;
   if (!text.trim()) return alert("Paste conversation text first!");
 
-  const res = await fetch("/api/extract", {
+  const res = await fetch("https://contextstream.onrender.com/api/extract", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ text })
