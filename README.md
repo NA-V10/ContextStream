@@ -134,7 +134,7 @@ ContextStream/
 
 🚀 How to Run Locally
 1. Clone repo
-   ```code
+```code
 git clone <repo-url>
 cd ContextStream
 ```
@@ -143,7 +143,7 @@ cd ContextStream
 npm install
 ```
 4. Run backend
-   ```code
+ ```code
 npm start
 ```
 
