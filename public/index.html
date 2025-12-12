@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ContextStream — Mock Demo</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>ContextStream (Mock)</h1>
+  <p>Extract Decisions • Rationale • Next Steps</p>
+</header>
+
+<main class="container">
+  <section class="input-area">
+    <textarea id="inputText" placeholder="Paste conversation here..."></textarea>
+    <button id="analyzeBtn">Generate Context</button>
+  </section>
+
+  <section class="output">
+    <div class="card">
+      <h3>Decisions</h3>
+      <pre id="decisions">—</pre>
+    </div>
+
+    <div class="card">
+      <h3>Rationale</h3>
+      <pre id="rationale">—</pre>
+    </div>
+
+    <div class="card">
+      <h3>Next Steps</h3>
+      <pre id="nextSteps">—</pre>
+    </div>
+
+    <div class="card">
+      <h3>Raw Mock Output</h3>
+      <pre id="raw">—</pre>
+    </div>
+  </section>
+
+</main>
+
+<script src="/app.js"></script>
+</body>
+</html>

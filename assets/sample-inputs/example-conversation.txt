@@ -1,0 +1,4 @@
+PM: We will finalize the landing page by Friday.
+Designer: I'll share 3 variants because marketing wants options.
+Developer: Next, I will push the wireframe today.
+Marketing: Action: run an A/B test on headlines.
